@@ -1,0 +1,22 @@
+Membuat desain interface (sepakat menggunakan laravel, cmiiw)
+Membuat list fitur (note/01.jpg)
+Coding : (note/02.jpg)
+
+    Upload dataset; (Diminta ada pencatatan kelompok berapa yang ngunggah file nya, cmiiw)
+    Pemilihan skenario (misal: menggunakan 600 dokumen, atau hanya 200 dokumen saja)
+    proses 1
+	Rahmat:{XML Crawling; input: xml; output: ke database, formatnya sudah ada;
+        Preprocessing (minimal: case folding, stopword removal, stemming, tokenizing; boleh ditambah yang lain);input: db artikel; output:db terms(kata2), tf,df, idf, db termdocument, iddok, idterm, tf}
+	Haqiqi:{
+        Pembobotan (cmiiw diminta 2 pembobotan tf dan idf, bisa memilih mau pake yang mana)
+            bobot pasangan term (note/03.jpg)
+	input: db terms; output: db terms, tf,df, idf dan db cooccurence, tf, df, idf;
+	}        
+	Gurat:{coocurence (menggunakan rumus yang ada di paper) input: db cooccurence, tf, df, idf; output:db cooccurence, clusterweight;
+        cosine (similarity; note/04.jpg); input: db cooccurence, clusterweight, cosine;
+        penentuan kandidat sinonim dari proses 1; output: 5 pasangan tertinggi
+    proses 2} 
+        pencarian kandidat sinonim dari kateglo (masih menunggu link kateglo bahasa indonesia)
+        penentuan kandidat sinonim dari proses 2
+    penentuan final synonym
+    retrieval dokumen dari query user

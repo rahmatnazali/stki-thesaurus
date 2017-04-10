@@ -1,0 +1,6 @@
+UPDATE expand_result SET artikel_1=7839 WHERE id_query=120;
+UPDATE expand_result SET artikel_1=9776 WHERE id_query=120;
+UPDATE expand_result SET artikel_2=7904 WHERE id_query=120;
+UPDATE expand_result SET artikel_3=3978 WHERE id_query=120;
+UPDATE expand_result SET artikel_4=195 WHERE id_query=120;
+UPDATE expand_result SET artikel_5=9716 WHERE id_query=120;

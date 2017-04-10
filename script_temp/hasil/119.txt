@@ -1,0 +1,1 @@
+insert into expand_result (query_expanded,id_query) values('Pekerja Asing',119);

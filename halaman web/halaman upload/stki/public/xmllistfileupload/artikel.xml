@@ -1,0 +1,8 @@
+<artikel>
+	<id>TOPIK_SUBTOPIK_01_001</id><!-- [OLA,POL,EKO]_[lihatdi http://bit.ly/KelompokFPSTKI2016]_01(duadigit)_001(3digit) -->
+	<judul>Judul Berita</judul>
+	<tanggal>29/11/11</tanggal> <!-- DD/MM/YY -->
+	<kata_kunci>Kata Kunci berita</kata_kunci>
+	<isi>Isi paragraf bacaan berita</isi><!-- Gak usah tag paragraf -->
+	<link>link artikel</link>
+</artikel>

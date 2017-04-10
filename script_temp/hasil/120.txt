@@ -1,0 +1,1 @@
+insert into expand_result (query_expanded,id_query) values('kenaikan harga listrik zonasi harimau haris harkat harmonisasi presentasi poros pijat potensi posisi',120);
